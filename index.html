@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Whimsy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('./bg.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+    </style>
+
+</head>
+</div>
+<body  >
+    <div class=" text-lime-950  font-bold md:text-4xl text-2xl mt-2 mr-2 "><center>"Stay in the Loop with Fresh Weather Buzz"</center></div>
+    
+    <div class="  backdrop-blur-2xl  backdrop-brightness-150   w-80   md:w-1/2 lg:w-2/5  flex-col place-content-center  rounded-lg mt-6 m-auto mb-4  ">
+        <div >
+            <center>
+            <input  id="I1" type="search" placeholder="Enter the City" class="text-lg   rounded-xl p-1 shadow-2xl  bg-gradient-to-r from-green-200 to bg-sky-100  mt-6  ml-10 outline-none  pl-3 w-2/3 placeholder:text-gray-500 placeholder:text-sm m-8 mr-3 sm:mb-12   hover:scale-105">
+            <button id="I2" class=" bg-green-100 h-8 rounded-full w-10 fa-solid fa-magnifying-glass-location  hover:scale-110 m-auto  "></button>
+            </center>
+        </div>
+        <div class="" id="I8">
+                <center><img id="I3"  src="default.png" alt="cloudy" class="  border-2 border-white  rounded-3xl  w-52 hover:scale-110  lg:w-72 h-52 "></center>
+                <div class="mt-4"> 
+                    <center><p id="I4" class="text-zinc-900  font-bold text-xl md:text-3xl">No data</p></center>
+                    <center><p id="I5" class=" text-zinc-900 md:text-3xl text-xl  mb-2 font-bold ">No data</p></center>
+                </div>
+                <div class="flex justify-between mt-4 ml-4 mr-4">
+                    <div >
+                        <i class="fa-solid fa-droplet text-zinc-800 font-extrabold animate-pulse sm:text-xl tracking-widest">  Humidity</i>
+                        <p id="I6" class="text-lg md:text-3xl  font-bold mb-3 mt-2 text-zinc-800">No data</p>
+                    </div>
+                    <div >
+                        <i class="fa-solid fa-wind  text-zinc-800 sm:text-xl animate-pulse tracking-widest"> WIND</i>
+                        <p id="I7" class=" md:text-3xl text-lg font-bold  mb-3 mt-2 text-zinc-800 ">No data</p>
+                    </div>
+                </div>
+        </div>
+        
+
+        
+    </div>
+    <footer class="absolute bottom-0 right-0 mt-2 mr-2 text-green-100">
+        Created by <a href="https://www.linkedin.com/in/aditya-kashyap-759882226/">Aditya Kashyap</a>
+    </footer>
+    
+    <script src="script1.js"></script>
+    <script src="https://kit.fontawesome.com/39d8b5047a.js" crossorigin="anonymous"></script>
+</body>
+</html>
